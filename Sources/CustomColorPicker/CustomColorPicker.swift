@@ -4,13 +4,10 @@
 
 import SwiftUI
 
-
-
-
 // TODO: сделать нормальный UX
 
 @available(iOS 15.0, *)
-struct CustomColorPicker: View {
+struct PickerUI: View {
     let  radius: CGFloat = 100
     var diameter: CGFloat {
         radius * 2
